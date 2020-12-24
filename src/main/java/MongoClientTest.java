@@ -22,7 +22,9 @@ public class MongoClientTest {
 
     static MongoClient createMongoClient(){
 
-        return new MongoClient(new MongoClientURI("mongodb://swainsa1-cosmos:qEWz024C9yAtKbiliMhuK6KwLgS9E0t9goOhGocRxgJ7nxw23GcZXANbsgHNWzAo2GfWPff5owAaoeaHy4ozLQ==@swainsa1-cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@swainsa1-cosmos@&retrywrites=false"));
+        //Add the mongo db URI here
+
+        return new MongoClient(new MongoClientURI("XXXXX"));
 
     }
 
